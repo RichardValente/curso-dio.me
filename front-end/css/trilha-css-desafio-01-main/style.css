@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+/* AREA DO BANNER*/
+.banner{
+    height: 600px;
+    background-image:url(./assets/images/banner.png), linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(49,168,221,0.2) 50%, rgba(0,0,0,0.6) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    border-bottom: 1px solid #33A8DB80;
+
+}
+
+
+.banner, .banner-content, .logo, .banner-content > h1, #course-content, main, #professional-challenges, footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    width: 600px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    background: rgba(0, 0, 0, 0.2);
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner .logo  img{
+    margin: auto;
+    width: 100%;
+    height: 100%; 
+    object-fit: contain; 
+}
+
+.banner-content h1{
+    width: 434px;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 47px;
+    letter-spacing: 0em;
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.banner-content p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+
+}
+
+.banner-content > button{
+    width: 326px;
+    height: 57px;
+    top: 473px;
+    left: 557px;
+    padding: 19px, 91px, 19px, 91px;
+    border: 2px;
+    gap: 31px; 
+
+  
+    background-color: transparent;
+
+    border: 2px solid;
+    border-color: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    border-radius: 30px;
+
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #31A8DD;
+
+}
+
+/*body*/
+body{
+    background-color: black;
+}
+
+/* parte do conteudo do curso*/
+
+section{
+    margin: 100px auto;
+}
+
+#course-content{
+    width: 800px;
+    text-align: center;
+}
+
+#course-content > h2{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+#course-content p{
+    color: white;
+
+}
+
+#course-content .modules-list{
+    margin: 24px 0;
+
+}
+
+.module{
+    color: white;
+    width: 530px;
+    padding: 16px;
+    border-radius: 100px;
+    border: 1px solid #33A8DB;
+    margin: 0 auto 24px;
+    background: linear-gradient(0deg, #252525, #252525),
+    linear-gradient(0deg, #33A8DB, #33A8DB);
+
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7)
+}
+
+.module span{  
+
+    color: #31A8DD;
+}
+
+/* parte da imagem da mulher*/
+
+#transform-world{
+    height: 560px;
+    width: 99.5%;
+    background-image: url(/assets/images/woman-code.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+#transform-world  p{
+    max-width: 250px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 0em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    text-shadow: 3px 2px #33A8DB;
+}
+
+
+/*desafios profissionais*/
+
+#professional-challenges{
+    margin-top: 0;
+    width: 100%;
+
+}
+
+#professional-challenges h2{
+    color: #31A8DD;
+    width: 800px;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .2em;
+    margin-bottom: 24px;
+
+}
+
+#professional-challenges img{
+    margin: 32px 0;
+}
+
+#professional-challenges p{
+    width: 792px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+
+}
+/*footer*/
+
+footer{
+    padding: 60px;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+    color: white;
+}
+
+footer img{
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #31A8DD;
+    font-weight: bold;
+}
