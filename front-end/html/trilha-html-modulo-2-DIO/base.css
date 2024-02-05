@@ -1,0 +1,84 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #e6e9ee;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  padding: 10px 20px 0px;
+}
+.header {
+  min-height: 150px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  padding: 20px;
+}
+.footer {
+  background-color: #e5e9f5;
+  min-height: 150px;
+}
+
+.header img {
+  height: 200px;
+  width: 75vw;
+  position: absolute;
+}
+.dados-header {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  padding-left: 5px;
+}
+
+table thead th {
+  background-color: #000;
+  color: #ffff;
+}
+
+table tbody tr:nth-child(even) td {
+  background-color: #d0d0d4;
+}
+
+table tbody tr:hover td {
+  background-color: #053153;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 190px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin-top: 15px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
